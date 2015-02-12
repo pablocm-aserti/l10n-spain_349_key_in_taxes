@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+    	<record id="view_account_tax_template_form_mod349" model="ir.ui.view">
+            <field name="name">account.tax.template.form</field>
+            <field name="model">account.tax.template</field>
+            <field name="inherit_id" ref="account.view_account_tax_template_form"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='ref_tax_sign']" position="after">
+            		<group string="Modelo 349">
+            			<field name="op_key_349"/>
+            		</group>
+            	</xpath>
+            </field>
+        </record>
+
+        
+        <record id="view_tax_form_mod349" model="ir.ui.view">
+            <field name="name">account.tax.form.mod349</field>
+            <field name="model">account.tax</field>
+            <field name="inherit_id" ref="account.view_tax_form"/>
+            <field name="arch" type="xml">
+        		<field name="child_depend" position="after">
+        			<separator string="Modelo 349" colspan="2"/>
+        			<field name="op_key_349"/>
+        		</field>
+        	</field>
+        </record>
+    </data>
+</openerp>

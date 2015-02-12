@@ -1,0 +1,115 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* ags_l10n_es_aeat_mod349
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-11 08:32+0000\n"
+"PO-Revision-Date: 2015-02-11 08:32+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "A - Intra-Community acquisition"
+msgstr "A - Adquisición intracomunitaria"
+
+#. module: ags_l10n_es_aeat_mod349
+#: model:ir.model,name:ags_l10n_es_aeat_mod349.model_l10n_es_aeat_mod349_report
+msgid "AEAT Model 349 Report"
+msgstr "Declaración modelo AEAT 349"
+
+#. module: ags_l10n_es_aeat_mod349
+#: code:addons/ags_l10n_es_aeat_mod349/account_invoice.py:52
+#, python-format
+msgid "Cannot get invoices.\n"
+"There is no fiscal year selected"
+msgstr "Cannot get invoices.\n"
+"There is no fiscal year selected"
+
+#. module: ags_l10n_es_aeat_mod349
+#: code:addons/ags_l10n_es_aeat_mod349/account_invoice.py:67
+#, python-format
+msgid "Cannot get invoices.\n"
+"There is no month and/or fiscal year selected"
+msgstr "Cannot get invoices.\n"
+"There is no month and/or fiscal year selected"
+
+#. module: ags_l10n_es_aeat_mod349
+#: code:addons/ags_l10n_es_aeat_mod349/account_invoice.py:61
+#, python-format
+msgid "Cannot get invoices.\n"
+"There is no period selected"
+msgstr "Cannot get invoices.\n"
+"There is no period selected"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "E - Intra-Community supplies"
+msgstr "E - Entregas intracomunitarias"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "H - Intra-Community supplies without taxes delivered by legal representative"
+msgstr "H - Entregas intracomunitarias sin impuestos entregadas por un representante legal"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "I - Intra-Community services acquisitions"
+msgstr "I - Adqusiciones intracomunitarias de servicios"
+
+#. module: ags_l10n_es_aeat_mod349
+#: model:ir.model,name:ags_l10n_es_aeat_mod349.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "M - Intra-Community supplies without taxes"
+msgstr "M - Intra-Community supplies without taxes"
+
+#. module: ags_l10n_es_aeat_mod349
+#: view:account.tax:ags_l10n_es_aeat_mod349.view_tax_form_mod349
+#: view:account.tax.template:ags_l10n_es_aeat_mod349.view_account_tax_template_form_mod349
+msgid "Modelo 349"
+msgstr "Modelo 349"
+
+#. module: ags_l10n_es_aeat_mod349
+#: field:account.tax,op_key_349:0
+#: field:account.tax.template,op_key_349:0
+msgid "Operation key"
+msgstr "Clave de operación"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "S - Intra-Community services"
+msgstr "S - Prestaciones de servicios intracomunitarias"
+
+#. module: ags_l10n_es_aeat_mod349
+#: selection:account.tax,op_key_349:0
+#: selection:account.tax.template,op_key_349:0
+msgid "T - Triangular operations"
+msgstr "T - Operaciones triangulares"
+
+#. module: ags_l10n_es_aeat_mod349
+#: model:ir.model,name:ags_l10n_es_aeat_mod349.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: ags_l10n_es_aeat_mod349
+#: model:ir.model,name:ags_l10n_es_aeat_mod349.model_account_tax_template
+msgid "Templates for Taxes"
+msgstr "Plantilla para los impuestos"
+

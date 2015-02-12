@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+        <record id="account_invoice_form_view_349" model="ir.ui.view">
+            <field name="name">account.invoice.form.349</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="l10n_es_aeat_mod349.view_customer_account_invoice_form__add_operation_key"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='operation_key']" position="attributes">
+            		<attribute name="invisible">1</attribute>
+            	</xpath>
+            </field>
+        </record>
+
+		<record id="account_supplier_invoice_form_view_349" model="ir.ui.view">
+            <field name="name">account.supplier.invoice.form.349</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="l10n_es_aeat_mod349.view_supplier_account_invoice_form__replace_fiscal_position"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='operation_key']" position="attributes">
+            		<attribute name="invisible">1</attribute>
+            	</xpath>
+            </field>
+        </record>
+        
+    </data>
+</openerp>
